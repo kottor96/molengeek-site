@@ -1,0 +1,18 @@
+img[src="./public/assets/img/many_contact_logo.png"]{
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    background-color: purple;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    
+}
+body{
+    margin: 0;
+}
