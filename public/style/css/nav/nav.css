@@ -1,8 +1,31 @@
-nav{
-    display: flexbox;
+nav>section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px rgb(172, 172, 172) solid;
 }
-nav div{
-    border: 1px rgba(129, 129, 129, 0.637) solid;
+nav section div:not(:nth-of-type(2)){
+    height: 100px;
+    border-right: 1px rgb(172, 172, 172) solid;
+    border-left: 1px rgb(172, 172, 172) solid;
+}
+nav section img{
+    height: 100%;
+}
+nav section div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+nav section div a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 3s;
+}
+nav section div a:hover{
+    text-decoration: underline 2px black;
+}
+nav section div:nth-child(3){
+    align-items: center;
     display: flex;
 }
-nav div:nth-child()
+
