@@ -1,0 +1,8 @@
+nav{
+    display: flexbox;
+}
+nav div{
+    border: 1px rgba(129, 129, 129, 0.637) solid;
+    display: flex;
+}
+nav div:nth-child()
