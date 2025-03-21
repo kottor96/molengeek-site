@@ -1,7 +1,3 @@
-img[src="./public/assets/img/many_contact_logo.png"]{
-    height: 100%;
-    width: 100%;
-}
 header{
     display: flex;
     height: 50px;
@@ -10,9 +6,29 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header{
-    
+header button{
+    background-color: rgba(77, 180, 77, 0.863);
+    height: 100%;
+    width: 100px;
+}
+header input{
+    height: 100%;
+    width: 200px;
+    border-radius: 2px;
+    border: none;
 }
 body{
     margin: 0;
+}
+header div:first-child{
+    height: 80%;
+    width:auto;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+header div:nth-child(2){
+    height: 60%;
+    width: auto;
 }
