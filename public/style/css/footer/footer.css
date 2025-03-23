@@ -3,3 +3,15 @@ footer{
     width: auto;
     background-color: dimgray;
 }
+footer div a::before{
+    content: "X - ";
+}
+footer div a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+footer div{
+    justify-content: center;
+    display: flex;
+}
