@@ -1,3 +1,4 @@
+/*bordure, flex et espacement*/
 nav>section{
     display: flex;
     justify-content: space-between;
@@ -15,14 +16,18 @@ nav section img{
 
 }
 nav section div:nth-child(2){
+    
     display: flex;
     align-items: center;
+    flex: auto;
+    justify-content: space-evenly;
 }
 nav section div a{
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     color: black;
     transition: all 3s;
+    font-weight: 500;
 }
 nav section div a:hover{
     text-decoration: underline 2px black;
