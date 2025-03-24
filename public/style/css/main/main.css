@@ -16,7 +16,7 @@ main h1{
     text-align: center;
     padding: 50px;
 }
-main p,ul{
+main p,main ul{
     line-height: 36px;
 }
 main ul li{
