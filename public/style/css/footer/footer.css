@@ -6,21 +6,62 @@ footer{
 
 footer div a:nth-child(1)::before{
     content: url("../../../assets/img/facebook-f-brands.svg");
-    display: ;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    border: black 3px solid;
+    border-radius: 50%;
+    padding: 20px;
+    filter: invert();
 }
 footer div a:nth-child(2)::before{
     content: url("../../../assets/img/twitter-brands.svg");
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    border: black 3px solid;
+    border-radius: 50%;
+    padding: 20px;
+    filter: invert();
 }
 footer div a:nth-child(3)::before{
     content: url("../../../assets/img/instagram-brands.svg");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: black 3px solid;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    filter: invert();
 }
 
 footer div a{
     padding: 10px;
     text-decoration: none;
     color: white;
+    align-items: center;
+    display: inline-flex;
+    
 }
 footer div{
     justify-content: center;
     display: flex;
+    gap: 100px;
+}
+footer div:last-child{
+    color: gray;
+}
+footer hr{
+    background-color: gray;
+    height: 1px;
+    border: none;
+}
+footer div:first-child,footer div img{
+    padding: 60px;
+}
+footer div img{
+    height: 100px;
 }
