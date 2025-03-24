@@ -27,7 +27,8 @@ header div:first-child{
 header img{
     height: 100%;
     width: 100%;
-    filter: invert()
+    filter: brightness(3);
+    clip:rect(auto auto 36px auto)
 }
 header div:nth-child(2){
     height: 60%;
