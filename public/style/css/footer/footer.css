@@ -3,9 +3,18 @@ footer{
     width: auto;
     background-color: dimgray;
 }
-footer div a::before{
-    content: "X - ";
+
+footer div a:nth-child(1)::before{
+    content: url("../../../assets/img/facebook-f-brands.svg");
+    display: ;
 }
+footer div a:nth-child(2)::before{
+    content: url("../../../assets/img/twitter-brands.svg");
+}
+footer div a:nth-child(3)::before{
+    content: url("../../../assets/img/instagram-brands.svg");
+}
+
 footer div a{
     padding: 10px;
     text-decoration: none;
